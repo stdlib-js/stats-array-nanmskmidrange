@@ -33,11 +33,11 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Calculate the [midrange][midrange] of an array according to a mask, ignoring `NaN` values.
+> Calculate the [mid-range][mid-range] of an array according to a mask, ignoring `NaN` values.
 
 <section class="intro">
 
-The [**midrange**][midrange] is defined as the arithmetic mean of the maximum and minimum values in a data set. The measure is the midpoint of the range and a measure of central tendency.
+The [**mid-range**][mid-range] is defined as the arithmetic mean of the maximum and minimum values in a data set. The measure is the midpoint of the range and a measure of central tendency.
 
 </section>
 
@@ -73,7 +73,7 @@ var nanmskmidrange = require( '@stdlib/stats-array-nanmskmidrange' );
 
 #### nanmskmidrange( x, mask )
 
-Computes the [midrange][midrange] of an array according to a mask, ignoring `NaN` values.
+Computes the [mid-range][mid-range] of an array according to a mask, ignoring `NaN` values.
 
 ```javascript
 var x = [ 1.0, -2.0, 4.0, 2.0, NaN, NaN ];
@@ -218,7 +218,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-[midrange]: https://en.wikipedia.org/wiki/Mid-range
+[mid-range]: https://en.wikipedia.org/wiki/Mid-range
 
 </section>
 
