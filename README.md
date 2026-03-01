@@ -52,6 +52,11 @@ The [**mid-range**][mid-range] is defined as the arithmetic mean of the maximum 
 To use in Observable,
 
 ```javascript
+nanmskmidrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmskmidrange@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-array-nanmskmidrange/tags). For example,
+
+```javascript
 nanmskmidrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmskmidrange@v0.0.0-umd/browser.js' )
 ```
 
@@ -64,7 +69,7 @@ var nanmskmidrange = require( 'path/to/vendor/umd/stats-array-nanmskmidrange/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmskmidrange@v0.0.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmskmidrange@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -122,7 +127,7 @@ The function has the following parameters:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmskmidrange@v0.0.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmskmidrange@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
